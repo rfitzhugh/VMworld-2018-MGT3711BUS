@@ -1,5 +1,5 @@
 {
-  "esxi_host": "esxi11.rubrik.us",
+  "esxi_host": "esxi21.rubrik.us",
   "esxi_datastore": "Gold",
   "esxi_username": "root",
   "esxi_password": "password"
