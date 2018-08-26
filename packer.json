@@ -1,0 +1,29 @@
+{
+  "builders": [
+    {
+      "type": "vsphere-iso",
+
+      "vcenter_server": "vcsa.rubrik.us",
+      "insecure_connection": "true",
+      "username": "administrator@vsphere.local",
+      "password": "Rubrik123!",
+      "cluster": "Production",
+      "host": "esxi21.rubrik.us",
+
+      "vm_name":  "demo_win",
+      "convert_to_template": "false",
+      "folder": "vmworld-mgt371bus",
+      "cpu": "1",
+      "ram": "2048",
+      "network": "VM_Production",
+      "network_adapter": "e1000",
+      "guest_os_type": "Windows",
+      "datastore": "Gold",
+      "disk_size": "5GB",
+      "iso": "Windows Server 2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso
+",
+      "iso_datastore": "ISOs"
+
+    }
+  ]
+}
