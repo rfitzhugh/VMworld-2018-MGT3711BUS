@@ -9,21 +9,27 @@
       "password": "Rubrik123!",
       "cluster": "Production",
       "host": "esxi21.rubrik.us",
-
-      "vm_name":  "demo_win",
+      "floppy_files": [
+        "Autounattend.xml",
+        "update-windows.ps1",
+        "configure-winrm.ps1"
+      ],
+      "vm_name":  "demo_win1",
       "convert_to_template": "false",
       "folder": "vmworld-mgt371bus",
-      "cpu": "1",
+      "CPUs": "1",
       "ram": "2048",
-      "network": "VM_Production",
-      "network_adapter": "e1000",
-      "guest_os_type": "Windows",
+      "network": "VMworld",
+      "network_card": "e1000",
+      "guest_os_type": "windows9Server64Guest",
       "datastore": "Gold",
-      "disk_size": "5GB",
-      "iso": "Windows Server 2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso
-",
-      "iso_datastore": "ISOs"
-
+      "disk_size": "51200",
+      "iso_paths": [
+        "[ISOs] Windows Server 2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso"
+      ],
+      "communicator": "winrm",
+      "winrm_username": "administrator",
+      "winrm_password": "Rubrik123!"
     }
   ]
 }

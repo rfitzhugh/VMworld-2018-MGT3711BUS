@@ -1,0 +1,131 @@
+2018/08/26 17:51:46 [INFO] Packer version: 1.2.5
+2018/08/26 17:51:46 Packer Target OS/Arch: windows amd64
+2018/08/26 17:51:46 Built with Go Version: go1.10.3
+2018/08/26 17:51:46 [DEBUG] Discovered plugin: vsphere-iso = C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe
+2018/08/26 17:51:46 Using internal plugin for amazon-chroot
+2018/08/26 17:51:46 Using internal plugin for hyperv-vmcx
+2018/08/26 17:51:46 Using internal plugin for null
+2018/08/26 17:51:46 Using internal plugin for parallels-pvm
+2018/08/26 17:51:46 Using internal plugin for amazon-instance
+2018/08/26 17:51:46 Using internal plugin for lxc
+2018/08/26 17:51:46 Using internal plugin for oneandone
+2018/08/26 17:51:46 Using internal plugin for oracle-classic
+2018/08/26 17:51:46 Using internal plugin for vmware-vmx
+2018/08/26 17:51:46 Using internal plugin for amazon-ebs
+2018/08/26 17:51:46 Using internal plugin for amazon-ebssurrogate
+2018/08/26 17:51:46 Using internal plugin for azure-arm
+2018/08/26 17:51:46 Using internal plugin for openstack
+2018/08/26 17:51:46 Using internal plugin for parallels-iso
+2018/08/26 17:51:46 Using internal plugin for qemu
+2018/08/26 17:51:46 Using internal plugin for triton
+2018/08/26 17:51:46 Using internal plugin for docker
+2018/08/26 17:51:46 Using internal plugin for file
+2018/08/26 17:51:46 Using internal plugin for googlecompute
+2018/08/26 17:51:46 Using internal plugin for oracle-oci
+2018/08/26 17:51:46 Using internal plugin for cloudstack
+2018/08/26 17:51:46 Using internal plugin for hyperv-iso
+2018/08/26 17:51:46 Using internal plugin for ncloud
+2018/08/26 17:51:46 Using internal plugin for profitbricks
+2018/08/26 17:51:46 Using internal plugin for digitalocean
+2018/08/26 17:51:46 Using internal plugin for virtualbox-iso
+2018/08/26 17:51:46 Using internal plugin for virtualbox-ovf
+2018/08/26 17:51:46 Using internal plugin for vmware-iso
+2018/08/26 17:51:46 Using internal plugin for alicloud-ecs
+2018/08/26 17:51:46 Using internal plugin for amazon-ebsvolume
+2018/08/26 17:51:46 Using internal plugin for lxd
+2018/08/26 17:51:46 Using internal plugin for scaleway
+2018/08/26 17:51:46 Using internal plugin for ansible-local
+2018/08/26 17:51:46 Using internal plugin for puppet-server
+2018/08/26 17:51:46 Using internal plugin for windows-restart
+2018/08/26 17:51:46 Using internal plugin for windows-shell
+2018/08/26 17:51:46 Using internal plugin for chef-client
+2018/08/26 17:51:46 Using internal plugin for file
+2018/08/26 17:51:46 Using internal plugin for puppet-masterless
+2018/08/26 17:51:46 Using internal plugin for salt-masterless
+2018/08/26 17:51:46 Using internal plugin for shell-local
+2018/08/26 17:51:46 Using internal plugin for ansible
+2018/08/26 17:51:46 Using internal plugin for chef-solo
+2018/08/26 17:51:46 Using internal plugin for converge
+2018/08/26 17:51:46 Using internal plugin for powershell
+2018/08/26 17:51:46 Using internal plugin for shell
+2018/08/26 17:51:46 Using internal plugin for manifest
+2018/08/26 17:51:46 Using internal plugin for vsphere-template
+2018/08/26 17:51:46 Using internal plugin for atlas
+2018/08/26 17:51:46 Using internal plugin for compress
+2018/08/26 17:51:46 Using internal plugin for docker-push
+2018/08/26 17:51:46 Using internal plugin for vagrant
+2018/08/26 17:51:46 Using internal plugin for docker-tag
+2018/08/26 17:51:46 Using internal plugin for vagrant-cloud
+2018/08/26 17:51:46 Using internal plugin for vsphere
+2018/08/26 17:51:46 Using internal plugin for alicloud-import
+2018/08/26 17:51:46 Using internal plugin for checksum
+2018/08/26 17:51:46 Using internal plugin for docker-import
+2018/08/26 17:51:46 Using internal plugin for docker-save
+2018/08/26 17:51:46 Using internal plugin for googlecompute-export
+2018/08/26 17:51:46 Using internal plugin for googlecompute-import
+2018/08/26 17:51:46 Using internal plugin for shell-local
+2018/08/26 17:51:46 Using internal plugin for amazon-import
+2018/08/26 17:51:46 Using internal plugin for artifice
+2018/08/26 17:51:46 Attempting to open config file: C:\Users\bill.gurling\AppData\Roaming\packer.config
+2018/08/26 17:51:46 [WARN] Config file doesn't exist: C:\Users\bill.gurling\AppData\Roaming\packer.config
+2018/08/26 17:51:46 Packer config: &{DisableCheckpoint:false DisableCheckpointSignature:false PluginMinPort:10000 PluginMaxPort:25000 Builders:map[amazon-ebsvolume:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebsvolume amazon-instance:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-instance vmware-vmx:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-vmx qemu:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-qemu docker:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-docker googlecompute:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-googlecompute null:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-null oneandone:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oneandone amazon-ebs:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebs alicloud-ecs:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-alicloud-ecs lxd:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxd parallels-pvm:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-pvm amazon-ebssurrogate:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-ebssurrogate virtualbox-ovf:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-ovf scaleway:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-scaleway openstack:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-openstack parallels-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-parallels-iso triton:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-triton profitbricks:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-profitbricks vsphere-iso:C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe amazon-chroot:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-amazon-chroot oracle-oci:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-oci cloudstack:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-cloudstack digitalocean:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-digitalocean ncloud:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-ncloud hyperv-vmcx:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-vmcx lxc:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-lxc azure-arm:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-azure-arm file:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-file hyperv-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-hyperv-iso oracle-classic:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-oracle-classic virtualbox-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso vmware-iso:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-vmware-iso] PostProcessors:map[docker-save:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-save googlecompute-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-import shell-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-shell-local artifice:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-artifice compress:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-compress vsphere:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere alicloud-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-alicloud-import checksum:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-checksum amazon-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-amazon-import vsphere-template:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vsphere-template atlas:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-atlas docker-push:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-push googlecompute-export:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-googlecompute-export manifest:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-manifest vagrant:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant docker-tag:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-tag docker-import:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-docker-import vagrant-cloud:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-post-processor-vagrant-cloud] Provisioners:map[windows-restart:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart file:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-file puppet-masterless:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-masterless puppet-server:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-puppet-server windows-shell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell chef-client:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-client salt-masterless:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-salt-masterless ansible:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible shell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell ansible-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-ansible-local shell-local:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-shell-local chef-solo:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-chef-solo converge:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-converge powershell:C:\ProgramData\chocolatey\lib\packer\tools\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell]}
+2018/08/26 17:51:46 Setting cache directory: C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer_cache
+2018/08/26 17:51:46 Loading builder: vsphere-iso
+2018/08/26 17:51:46 Creating plugin client for path: C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe
+2018/08/26 17:51:46 Starting plugin: C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe []string{"C:\\Users\\bill.gurling\\repos\\rubrik-devops\\VMworld-IaC\\packer-builder-vsphere-iso.exe"}
+2018/08/26 17:51:46 Waiting for RPC address for: C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 2018/08/26 17:51:46 Plugin minimum port: 10000
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 2018/08/26 17:51:46 Plugin maximum port: 25000
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 2018/08/26 17:51:46 Plugin address: tcp 127.0.0.1:10000
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 2018/08/26 17:51:46 Waiting for connection...
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 2018/08/26 17:51:46 Serving a plugin connection...
+2018/08/26 17:51:46 ui: vsphere-iso output will be in this color.
+2018/08/26 17:51:46 ui: 
+2018/08/26 17:51:46 Build debug mode: false
+2018/08/26 17:51:46 Force build: false
+2018/08/26 17:51:46 On error: 
+2018/08/26 17:51:46 Preparing build: vsphere-iso
+2018/08/26 17:51:46 Waiting on builds to complete...
+2018/08/26 17:51:46 Starting build run: vsphere-iso
+2018/08/26 17:51:46 Running builder: vsphere-iso
+2018/08/26 17:51:46 [INFO] (telemetry) Starting builder vsphere-iso
+2018/08/26 17:51:46 ui: ==> vsphere-iso: Creating VM...
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: panic: runtime error: invalid memory address or nil pointer dereference
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: [signal 0xc0000005 code=0x0 addr=0x20 pc=0xd57516]
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: goroutine 24 [running]:
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: main.(*Driver).Device(0xc0421d9bc0, 0xc04226acc0, 0xd, 0xc0421e3a20, 0x5, 0xc0423af030, 0xc0422108f0, 0x44ed570, 0xc04201aa20)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/driver.go:276 +0x76
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: main.(*Driver).addNetwork(0xc0421d9bc0, 0xc042441240, 0x4, 0x4, 0xc04226acc0, 0xd, 0xc0421e3a20, 0x5, 0x140000000, 0xc042441240, ...)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/driver.go:297 +0x6a
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: main.(*Driver).CreateVM(0xc0421d9bc0, 0xc042063908, 0xe, 0x1098e80, 0xc0421d9bc0)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/driver.go:105 +0x23b
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: main.(*StepCreateVM).Run(0xc042004168, 0x1913720, 0xc04229f830, 0x0)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/step_create.go:56 +0x115
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: github.com/martezr/packer-builder-vsphere-iso/vendor/github.com/mitchellh/multistep.(*BasicRunner).Run(0xc0422ca380, 0x1913720, 0xc04229f830)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/vendor/github.com/mitchellh/multistep/basic_runner.go:70 +0x1e9
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: main.(*Builder).Run(0xc0421e0860, 0x19159a0, 0xc0422d8640, 0x19107a0, 0xc0422d32d0, 0x19148a0, 0xc042004158, 0xc0421d8900, 0x0, 0xc0421ea4e0, ...)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/builder.go:75 +0x6e4
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: github.com/martezr/packer-builder-vsphere-iso/vendor/github.com/hashicorp/packer/packer/rpc.(*BuilderServer).Run(0xc0421e0880, 0x1, 0xc0421da550, 0x0, 0x0)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/go/src/github.com/martezr/packer-builder-vsphere-iso/vendor/github.com/hashicorp/packer/packer/rpc/builder.go:93 +0x1f1
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: reflect.Value.call(0xc0421ea4e0, 0xc0421de098, 0x13, 0x11155a1, 0x4, 0xc0422b9f20, 0x3, 0x3, 0xc04201dc80, 0x0, ...)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/usr/local/go/src/reflect/value.go:434 +0x926
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: reflect.Value.Call(0xc0421ea4e0, 0xc0421de098, 0x13, 0xc0422b9f20, 0x3, 0x3, 0xc0422b9f60, 0xa6682a, 0xe779e0)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/usr/local/go/src/reflect/value.go:302 +0xab
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: net/rpc.(*service).call(0xc0421dc500, 0xc0421dc4c0, 0xc0421da528, 0xc0421f4380, 0xc04219ea60, 0xe869a0, 0xc0421da54c, 0x18a, 0xe5c1c0, 0xc0421da550, ...)
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/usr/local/go/src/net/rpc/server.go:387 +0x14b
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: created by net/rpc.(*Server).ServeCodec
+2018/08/26 17:51:46 packer-builder-vsphere-iso.exe: 	/usr/local/go/src/net/rpc/server.go:481 +0x40b
+2018/08/26 17:51:46 [INFO] (telemetry) ending vsphere-iso
+2018/08/26 17:51:46 ui error: Build 'vsphere-iso' errored: unexpected EOF
+2018/08/26 17:51:46 Builds completed. Waiting on interrupt barrier...
+2018/08/26 17:51:46 machine readable: error-count []string{"1"}
+2018/08/26 17:51:46 ui error: 
+==> Some builds didn't complete successfully and had errors:
+2018/08/26 17:51:46 machine readable: vsphere-iso,error []string{"unexpected EOF"}
+2018/08/26 17:51:46 ui error: --> vsphere-iso: unexpected EOF
+2018/08/26 17:51:46 ui: 
+==> Builds finished but no artifacts were created.
+2018/08/26 17:51:46 [INFO] (telemetry) Finalizing.
+2018/08/26 17:51:46 C:\Users\bill.gurling\repos\rubrik-devops\VMworld-IaC\packer-builder-vsphere-iso.exe: plugin process exited
+2018/08/26 17:51:46 waiting for all plugin processes to complete...
